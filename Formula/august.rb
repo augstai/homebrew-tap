@@ -2,7 +2,7 @@ class August < Formula
   desc "Autonomous offensive security CLI for APIs, web apps, and MCP servers"
   homepage "https://august.so"
   version "0.4.0"
-  license "Proprietary"
+  license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.arm?
