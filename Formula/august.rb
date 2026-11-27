@@ -1,26 +1,26 @@
 class August < Formula
   desc "Autonomous offensive security CLI for APIs, web apps, and MCP servers"
   homepage "https://august.so"
-  version "0.3.1"
+  version "0.3.2"
   license "Proprietary"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://api.august.so/releases/cli/v0.3.1/august-aarch64-apple-darwin.tar.gz"
-      sha256 "43cabe48feb8b67e139c39f8f835ebbc22b808e64b119554b0dbe7fefe152004"
+      url "https://api.august.so/releases/cli/v0.3.2/august-aarch64-apple-darwin.tar.gz"
+      sha256 "53e340974100e86a39d836d06716cc68063987354cc83e418f2ae384f5a4190c"
     else
-      url "https://api.august.so/releases/cli/v0.3.1/august-x86_64-apple-darwin.tar.gz"
-      sha256 "fc4fd1452d1ff41f4ebfb4ae43c92948676a1093d475eb125a50eacf90c83894"
+      url "https://api.august.so/releases/cli/v0.3.2/august-x86_64-apple-darwin.tar.gz"
+      sha256 "f3ccc63a28fc61b89bb8f719cce8272504fe7f7f1363325d8f12d4c7562c3df2"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://api.august.so/releases/cli/v0.3.1/august-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "2623b66740c9d44f583917d0b33b37cf796095ef5426e32b0cc61aea49993125"
+      url "https://api.august.so/releases/cli/v0.3.2/august-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "e56971299822d7c37f6109a420ac3ba1702748a0d6759a96f386bd21edadda63"
     else
-      url "https://api.august.so/releases/cli/v0.3.1/august-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "4a12e2a28c027c84ae0816e61263fd3710270ccc6b1c69849e36f9b37cb48787"
+      url "https://api.august.so/releases/cli/v0.3.2/august-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "6881029c1fcf6cc65a754141f62f50bb25f76752b7418bb271dd40a24c6bdc4d"
     end
   end
 
